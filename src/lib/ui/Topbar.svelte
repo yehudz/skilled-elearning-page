@@ -6,8 +6,8 @@
     justify-between
     items-center
     h-[56px]
-    max-w-[90%]
-    xl:max-w-[1110px]
+    px-6
+    lg:max-w-[1110px]
     mt-3
     mx-auto
   "
@@ -17,8 +17,8 @@
     alt="Company logo"
     class="
       shrink-0
-      h-[28px]
-      xl:h-[36px]
+      h-[25px]
+      lg:h-[36px]
     "
   >
   <button
