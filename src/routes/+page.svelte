@@ -1,4 +1,7 @@
+<script content="context">
+  import HeroSection from "$lib/ui/HeroSection.svelte";
+  import Topbar from "$lib/ui/Topbar.svelte";
+</script>
 
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+<Topbar />
+<HeroSection />

@@ -1,0 +1,34 @@
+<header
+  data-cy="top-bar-container"
+  class="
+    flex
+    flex-row
+    justify-between
+    items-center
+    h-[56px]
+    px-6
+    lg:max-w-[1110px]
+    mt-3
+    mx-auto
+  "
+>
+  <img 
+    src="assets/logo-dark.svg" 
+    alt="Company logo"
+    class="
+      shrink-0
+      h-[25px]
+      lg:h-[36px]
+    "
+  >
+  <button
+    data-cy="get-started-button"
+    class="
+      btn
+      btn-black
+      md:btn-md
+    "
+  >
+    Get Started
+  </button>
+</header>
