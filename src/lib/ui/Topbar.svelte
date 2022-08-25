@@ -17,7 +17,7 @@
     alt="Company logo"
     class="
       shrink-0
-      h-[28px]
+      h-[25px]
       xl:h-[36px]
     "
   >

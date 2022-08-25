@@ -22,8 +22,7 @@ describe('Hero Section', ()=> {
     .should('not.be.empty')
   })
   it('should have hero image', ()=> {
-    cy.get('[data-cy="hero-container"]')
-    .find('img')
-    .should('be.visible')
+    cy.get('[data-cy="hero-image-container"]')
+    .should('have.css', 'background-image')
   })
 })

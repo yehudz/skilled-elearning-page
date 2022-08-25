@@ -1,0 +1,83 @@
+<div
+  data-cy="hero-container"
+  class="
+    flex
+    flex-col
+  "
+>
+<div
+  class="
+    flex
+    flex-col
+    max-w-[90%]
+    xl:max-w-[1110px]
+    mx-auto
+    mt-7
+  "
+>
+  <div
+    class="
+      hero-text-section
+    "
+  >
+    <h1
+      data-cy="hero-header"
+      class="
+        text-h2
+        text-black
+        xl:text-h1
+        font-extrabold
+      "
+    >
+      Maximize skill,
+    minimize budget
+    </h1>
+    <p
+      data-cy="hero-description"
+      class="
+        text-body-sm
+        text-grey
+        font-light
+        my-7
+      "
+    >
+      Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.
+    </p>
+    <button
+      data-cy="get-started-button"
+      class="
+        btn
+        btn-pink
+        btn-md
+      "
+    >
+      Get Started
+    </button>
+  </div>
+</div>
+  <div
+    data-cy="hero-image"
+    class="
+      relative
+      overflow-visible
+      mt-10
+    "
+  >
+    <div
+      data-cy="hero-image-container"
+      class="
+        absolute
+        top-0
+        left-0
+        hero-image-section
+        bg-[url('/assets/image-hero-mobile.png')]
+        bg-fill
+        bg-center
+        h-96
+        w-full
+        block
+      "
+    >
+    </div>
+  </div>
+</div>
