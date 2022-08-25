@@ -14,6 +14,9 @@ module.exports = {
       'purple1': '#4851FF',
       'purple2': '#F02AA6'
     },
+    fontFamily: {
+      'sans': ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans]
+    },
     fontSize: {
       'h1': ['56px', '70px'],
       'h2': ['40px', '51px'],
