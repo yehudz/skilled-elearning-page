@@ -7,3 +7,5 @@ node_modules
 .env.*
 !.env.example
 .history
+/skilled-elearning-landing-page
+/skilled-elearning-landing-page-figma
