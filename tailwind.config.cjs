@@ -14,6 +14,14 @@ module.exports = {
       'purple1': '#4851FF',
       'purple2': '#F02AA6'
     },
+    fontSize: {
+      'h1': ['56px', '70px'],
+      'h2': ['40px', '51px'],
+      'h3': ['32px', '40px'],
+      'h4': ['24px', '28px'],
+      'body-md': ['18px', '28px'],
+      'body-sm': ['16px', '28px']
+    },
     extend: {},
   },
   plugins: [],
