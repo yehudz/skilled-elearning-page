@@ -1,4 +1,13 @@
+<script content="context">
 
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+</script>
+
+<button
+  class="
+    btn
+    btn-purple
+    md:btn-md
+  "
+>
+  Get Started
+</button>
