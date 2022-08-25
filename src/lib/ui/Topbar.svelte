@@ -6,8 +6,8 @@
     justify-between
     items-center
     h-[56px]
-    max-w-[90%]
-    xl:max-w-[1110px]
+    px-6
+    lg:max-w-[1110px]
     mt-3
     mx-auto
   "
@@ -18,7 +18,7 @@
     class="
       shrink-0
       h-[25px]
-      xl:h-[36px]
+      lg:h-[36px]
     "
   >
   <button

@@ -3,6 +3,9 @@
   class="
     flex
     flex-col
+    md:flex-row
+    lg:max-w-[1110px]
+    lg:mx-auto
   "
 >
 <div
@@ -10,22 +13,28 @@
     flex
     flex-col
     max-w-[90%]
-    xl:max-w-[1110px]
+    md:max-w-[50%]
     mx-auto
+    md:mx-[30px]
     mt-7
+    md:mt-12
+    md:flex-1
   "
 >
   <div
     class="
       hero-text-section
+      md:mt-[50px]
+      md:max-w-[400px]
+      lg:max-w-[457px]
     "
   >
     <h1
       data-cy="hero-header"
       class="
         text-h2
+        lg:text-h1
         text-black
-        xl:text-h1
         font-extrabold
       "
     >
@@ -61,23 +70,50 @@
       relative
       overflow-visible
       mt-10
+      md:hidden
     "
   >
     <div
       data-cy="hero-image-container"
       class="
-        absolute
+        relative
         top-0
         left-0
         hero-image-section
         bg-[url('/assets/image-hero-mobile.png')]
-        bg-fill
-        bg-center
+        md:bg-[url('/assets/image-hero-tablet.png')]
+        bg-cover
+        bg-no-repeat
         h-96
         w-full
         block
       "
     >
     </div>
+  </div>
+  <div
+    class="
+      hidden
+      md:flex
+      lg:hidden
+      hero-image-tablet
+    "
+  >
+    <img 
+      src="assets/image-hero-tablet.png" 
+      alt="Hero"
+    >
+  </div>
+  <div
+    class="
+      hidden
+      lg:flex
+      hero-image-desktop
+    "
+  >
+    <img 
+      src="assets/image-hero-desktop.png" 
+      alt="Hero"
+    >
   </div>
 </div>
